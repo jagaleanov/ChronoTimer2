@@ -16,8 +16,9 @@
 ![Diagrama de actividades - Detener cronómetro](05actividadDetenerChrono.png)
 #### Reiniciar 
 ![Diagrama de actividades - Reiniciar cronómetro](06actividadReiniciarChrono.png)
+
 ### Temporizador
-### Establecer tiempo inicial
+#### Establecer tiempo inicial
 ![Diagrama de actividades - Establecer temporizador](07actividadEstablecerTempo.png)
 #### Inciar 
 ![Diagrama de actividades - Inciar temporizador](08actividadIniciarTempo.png)
@@ -32,17 +33,22 @@
 ![Diagrama de secuencia - Iniciar cronómetro](11secuenciaIniciarChrono.png)
 #### Pausar 
 ![Diagrama de secuencia - Pausar cronómetro](12secuenciaPausarChrono.png)
-#### Detener 
-![Diagrama de secuencia - Detener cronómetro](13secuenciaDetenerChrono.png)
-#### Reiniciar 
-![Diagrama de secuencia - Reiniciar cronómetro](14secuenciaReiniciarChrono.png)
-### Temporizador
-#### Iniciar 
-![Diagrama de secuencia - Iniciar temporizador](15secuenciaIniciarretroceder.png)
 #### Pausar 
-![Diagrama de secuencia - Iniciar temporizador](16secuenciaPausarTempo.png)
+![Diagrama de secuencia - Pausar cronómetro](13secuenciaGuardarMemoriaChrono.png)
+#### Detener 
+![Diagrama de secuencia - Detener cronómetro](14secuenciaDetenerChrono.png)
 #### Reiniciar 
-![Diagrama de secuencia - Reiniciar temporizador](17secuenciaReiniciarTempo.png)
+![Diagrama de secuencia - Reiniciar cronómetro](15secuenciaReiniciarChrono.png)
+
+### Temporizador
+#### Establecer tiempo inicial 
+![Diagrama de secuencia - Establecer temporizador](16secuenciaEstablecerTempo.png)
+#### Iniciar 
+![Diagrama de secuencia - Iniciar temporizador](17secuenciaIniciarTempo.png)
+#### Pausar 
+![Diagrama de secuencia - Iniciar temporizador](18secuenciaPausarTempo.png)
+#### Reiniciar 
+![Diagrama de secuencia - Reiniciar temporizador](19secuenciaReiniciarTempo.png)
 
 ## Diagramas de flujo
 ### Avanzar cronómetro
