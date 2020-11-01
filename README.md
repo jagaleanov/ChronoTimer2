@@ -39,6 +39,19 @@
 | Poscondiciones:                         | El cronómetro esta en estado avanzar                              |
 
 
+| Requerimiento:  | Avanzar cronómetro                                                                                  |
+|-----------------|-----------------------------------------------------------------------------------------------------|
+| Actores:        | NA                                                                                                  |
+| Precondiciones: | El cronómetro esta en estado de avanzar                                                             |
+| Escenarios:     |                                                                                                     |
+| 1               | El cronómetro indica a la unidad de tiempo mas pequeña que avance                                   |
+|                 | Las unidades de tiempo retornan el valor al cronómetro                                              |
+|                 | Si el valor retornado es un cero el cronómetro le indica a la siguiente unidad de tiempo que avance |
+|                 | Este flujo se repite para las diferentes unidades de tiempo del cronómetro                          |
+| 2               | Si el cronómetro no esta en estado de avanzar, avanzar no es válido                                 |
+| Poscondiciones: | El cronómetro retorna el valor del tiempo en todas sus unidades a la interfaz de usuario            |
+
+
 
 
 
