@@ -1,6 +1,5 @@
 # Chronotimer2
 ## Jorge Galeano && Juan Sebastian Moreno
-## Especificación de requerimientos
 ## Diagrama de casos de uso
 ![Diagrama de casos de uso](01casosUso.png)
 
@@ -27,6 +26,25 @@
 #### Reiniciar 
 ![Diagrama de actividades - Reiniciar temporizador](10actividadReiniciarTempo.png)
 
+
+## Especificación de requerimientos
+| Requerimiento:                          | Iniciar cronómetro                                                |
+| --------------------------------------- | ----------------------------------------------------------------- |
+| Actores:                                | Usuario                                                           |
+| Precondiciones:                         | El cronómetro esta pausado                                        |
+| Escenarios:                             |                                                                   |
+| 1                                       | El cronómetro cambia estado a avanzar                             |
+| El cronómetro inicia avanzar cronómetro |
+| 2                                       | Si el cronómetro no esta en estado de pausa, iniciar no es válido |
+| Poscondiciones:                         | El cronómetro esta en estado avanzar                              |
+
+
+
+
+
+
+
+
 ## Diagramas de secuencia
 ### Cronómetro
 #### Iniciar
@@ -50,7 +68,7 @@
 #### Reiniciar 
 ![Diagrama de secuencia - Reiniciar temporizador](19secuenciaReiniciarTempo.png)
 
-## Diagramas de flujo
+## Diagramas de flujo de datos
 ### Avanzar cronómetro
 ![Diagrama de flujo - Avanzar cronómetro](AvanzarChrono.png)
 ### Retroceder temporizador
