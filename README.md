@@ -224,9 +224,9 @@
 
 ## Diagramas de flujo de datos
 ### Avanzar cronómetro
-![Diagrama de flujo - Avanzar cronómetro](AvanzarChrono.png)
+![Diagrama de flujo - Avanzar cronómetro](20AvanzarChrono.png)
 ### Retroceder temporizador
-![Diagrama de flujo - Retroceder temporizador](RetrocederTemporizador.png)
+![Diagrama de flujo - Retroceder temporizador](21RetrocederTemporizador.png)
 
 ## Diagrama de clases
 ![Diagrama de clases](clases.png)
