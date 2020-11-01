@@ -28,6 +28,8 @@
 
 
 ## Especificación de requerimientos
+### Cronómetro
+
 | Requerimiento:                          | Iniciar cronómetro                                                |
 | --------------------------------------- | ----------------------------------------------------------------- |
 | Actores:                                | Usuario                                                           |
@@ -126,6 +128,7 @@
 |                 | El cronómetro elimina todos los datos de la memoria                                          |
 | Poscondiciones: | El cronómetro se detiene vuelve a su estado inicial con tiempo 0 y todas las memorias vacias |
 
+### Temporizador
 | Requerimiento:  | Iniciar temporizador                                                |
 |-----------------|---------------------------------------------------------------------|
 | Actores:        | Usuario                                                             |
@@ -181,16 +184,17 @@
 | 2               | Si el temporizador no esta en retroceder pausar no es válido |
 | Poscondiciones: | El temporizador esta en estado detener                       |
 
-| Requerimiento:  | Detener temporizador                                          |
-|-----------------|---------------------------------------------------------------|
-| Actores:        | Usuario                                                       |
-| Precondiciones: | El temporizador esta en estado de retroceder                  |
-| Escenarios:     |                                                               |
-| 1               | El temporizador cambia su estado a detener                    |
-| 2               | Si el temporizador no esta en retroceder detener no es válido |
-| Poscondiciones: | El temporizador esta en estado detener                        |
+| Requerimiento:  | Establecer tiempo inicial                                          |
+|-----------------|--------------------------------------------------------------------|
+| Actores:        | Usuario                                                            |
+| Precondiciones: | El temporizador esta detenido                                      |
+| Escenarios:     |                                                                    |
+| 1               | El temporizador pide al usuario los valores de tiempo inicial      |
+|                 | Los valores son asignados a las diferentes unidades de tiempo      |
+| 2               | Si el temporizador no esta detenido establecer tiempo no es válido |
+| Poscondiciones: | El temporizador tiene un tiempo inicial asignado                   |
 
-| Requerimiento:  | Reiniciar cronómetro                                                                    |
+| Requerimiento:  | Reiniciar temporizador                                                                    |
 |-----------------|-----------------------------------------------------------------------------------------|
 | Actores:        | Usuario                                                                                 |
 | Precondiciones: |                                                                                         |
