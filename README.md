@@ -194,7 +194,7 @@
 | 2               | Si el temporizador no esta detenido establecer tiempo no es válido |
 | Poscondiciones: | El temporizador tiene un tiempo inicial asignado                   |
 
-| Requerimiento:  | Reiniciar temporizador                                                                    |
+| Requerimiento:  | Reiniciar temporizador                                                                  |
 |-----------------|-----------------------------------------------------------------------------------------|
 | Actores:        | Usuario                                                                                 |
 | Precondiciones: |                                                                                         |
