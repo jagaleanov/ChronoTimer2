@@ -34,7 +34,7 @@
 | Precondiciones:                         | El cronómetro esta pausado                                        |
 | Escenarios:                             |                                                                   |
 | 1                                       | El cronómetro cambia estado a avanzar                             |
-| El cronómetro inicia avanzar cronómetro |
+|                                         | El cronómetro inicia avanzar cronómetro
 | 2                                       | Si el cronómetro no esta en estado de pausa, iniciar no es válido |
 | Poscondiciones:                         | El cronómetro esta en estado avanzar                              |
 
