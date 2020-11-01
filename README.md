@@ -205,8 +205,8 @@
 ![Diagrama de secuencia - Iniciar cronómetro](11secuenciaIniciarChrono.png)
 #### Pausar 
 ![Diagrama de secuencia - Pausar cronómetro](12secuenciaPausarChrono.png)
-#### Pausar 
-![Diagrama de secuencia - Pausar cronómetro](13secuenciaGuardarMemoriaChrono.png)
+#### Guardar en memoria 
+![Diagrama de secuencia - Guardar en memoria cronómetro](13secuenciaGuardarMemoriaChrono.png)
 #### Detener 
 ![Diagrama de secuencia - Detener cronómetro](14secuenciaDetenerChrono.png)
 #### Reiniciar 
@@ -218,7 +218,7 @@
 #### Iniciar 
 ![Diagrama de secuencia - Iniciar temporizador](17secuenciaIniciarTempo.png)
 #### Pausar 
-![Diagrama de secuencia - Iniciar temporizador](18secuenciaPausarTempo.png)
+![Diagrama de secuencia - Pausar temporizador](18secuenciaPausarTempo.png)
 #### Reiniciar 
 ![Diagrama de secuencia - Reiniciar temporizador](19secuenciaReiniciarTempo.png)
 
